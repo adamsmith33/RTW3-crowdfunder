@@ -1,0 +1,48 @@
+* {
+    font-family: novecento-sans,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(45deg,#360033,#0b8793);
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: left;
+    gap: 5%;
+    list-style: none;
+    width: 96%;
+    height: 5vh;
+    margin-top: 1vh;
+    margin-bottom: 3%; 
+    margin-left: auto;
+    margin-right: auto; 
+  
+  }
+
+  .card {
+    background-image: linear-gradient(to bottom right,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    border: 0.25px solid rgba(255, 255, 255, 0.15);
+    border-radius: 2vh;
+    filter: drop-shadow(10px 10px 15px rgba(14, 14, 14, 0.15));
+  }
+
+  .generalButton {
+    border-radius: 2vh;
+    border: none;
+    color: white;
+    background-color: #1CB5E0;
+    transition: all 0.1s;
+}
+
+.generalButton:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
